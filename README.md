@@ -24,13 +24,13 @@ Given X = 100 and Y = 60 min
 # Guides 
 The following guides illustrate how to use application:
 
-###How run 
+### How run 
 Application required: JAVA 11, RabbitMQ 3.8.7.
-For persist data it use internally H2 database in memory, but it might be configured in *application.properties*.
+For persist data it use internally H2 database in memory, but it might be configured in **application.properties**.
 
-RabbitMQ should be run on default port [5672], you don't need configure any additional queues, becase application will create nessesery queses on the firtst start. 
+RabbitMQ should be run on default port **[5672]**, you don't need configure any additional queues, becase application will create nessesery queses on the firtst start. 
 
-First you have to compile and package source code by Maven version (3.6.3). It will generate *jar* file which you have to run by JAVA 11. 
+First you have to compile and package source code by Maven version (3.6.3). It will generate **jar** file which you have to run by JAVA 11. 
 
 To run application you should run command:
 **java -jar interview-task-0.9.0-SNAPSHOT.jar**
